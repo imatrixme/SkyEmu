@@ -6872,7 +6872,7 @@ static void frame(void) {
     ImFontAtlas* atlas = igGetIO()->Fonts;    
 
     ImFont *font = NULL;
-    float font_scale=1.0;
+    float font_scale=2.0;
    
     if(gui_state.settings.theme==SE_THEME_CUSTOM){
       size_t size =0; 
